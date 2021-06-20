@@ -12,7 +12,11 @@ const UserSchema = new mongoose.Schema({
     },
     lastname:{
         type:String
-    }
+    },
+    password:{
+            type:String
+     }
+    
     
 });
 
